@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LariKarol">
+    <title>Document Object Model = DOM</title>
+</head>
+<body>
+    <header>
+        <h1>DOM - Document Object Model</h1>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Onsubmit- impede que a pagina de F5 -->
+            <form onsubmit="return false">
+                <label>Informe o seu nome:</label><br>
+                <input type="text" placeholder="Nome completo" id="nome">
+                <br>
+                <br>
+                <label>Informe sua idade:</label> <br>
+                <input type="number" placeholder="Coloque sua idade" value="15" min="1" max="65" id="idade">
+                <br>
+                <br>
+                <button onclick="maioridade ();">Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Meu js -->
+    <script src="js/scrypt.js"></script>
+</body>
+</html>
